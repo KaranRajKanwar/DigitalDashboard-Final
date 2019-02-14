@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:layout_editor_absoluteY="81sp">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230sp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280sp"
+        android:layout_marginBottom="32sp"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="340sp"
+            android:gravity="left"
+            android:text="@string/show_password" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="12sp"
+        android:layout_marginTop="380sp"
+        android:text="@string/loginbtn" />
+    <Button
+        android:id="@+id/anonloginbutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="12sp"
+        android:layout_marginTop="440sp"
+        android:text="@string/anonloginbtn" />
+
+    <TextView
+        android:id="@+id/link_signup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="505sp"
+        android:background="@null"
+        android:paddingLeft="85sp"
+        android:text="@string/createacct"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/forgotpassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530sp"
+        android:background="@null"
+        android:onClick="onClick"
+        android:layout_marginLeft="120sp"
+        android:text="@string/forgotpasswordlink"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/googleBtn"
+        android:layout_marginTop="590sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.google.android.gms.common.SignInButton>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"
+        android:visibility="invisible"
+        android:indeterminate="true"/>
+</android.support.design.widget.CoordinatorLayout>

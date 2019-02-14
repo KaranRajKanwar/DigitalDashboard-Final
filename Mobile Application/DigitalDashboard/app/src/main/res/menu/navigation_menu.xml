@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="Navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/Tracking"
+            android:icon="@drawable/ic_tracking"
+            android:title="@string/tracking"/>
+        <item android:id="@+id/Logs"
+            android:icon="@drawable/ic_logs"
+            android:title="@string/logs"/>
+        <item android:id="@+id/Radio"
+            android:icon="@drawable/ic_radio"
+            android:title="@string/radio"/>
+        <item android:id="@+id/Music"
+            android:icon="@drawable/ic_musiclibrary"
+            android:title="@string/music"/>
+        <item android:id="@+id/Aboutus"
+            android:icon="@drawable/ic_aboutus"
+            android:title="@string/aboutus"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/UserProfile"
+            android:icon="@drawable/ic_account2"
+            android:title="@string/userprofile"/>
+        <item android:id="@+id/Settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings"/>
+        <item android:id="@+id/Signout"
+            android:icon="@drawable/ic_quit"
+            android:title="@string/signout"/>
+        <item android:id="@+id/quit"
+            android:icon="@drawable/ic_quit"
+            android:title="@string/quit"/>
+    </group>
+</menu>

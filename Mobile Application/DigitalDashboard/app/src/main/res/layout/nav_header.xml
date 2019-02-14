@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/navheader1">
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10sp"></View>
+    <TextView
+        android:id="@+id/welcome_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/welcomeback"
+        android:layout_marginLeft="45sp"
+        android:layout_marginBottom="7sp"
+        android:textSize="20sp" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10sp"></View>
+    <TextView
+        android:id="@+id/welcomename"
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        android:textSize="18sp"
+        android:text=""
+        android:gravity="center" />
+
+</LinearLayout>

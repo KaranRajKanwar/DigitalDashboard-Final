@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:defaultValue="english"
+        android:key="langpref"
+        android:summary="@string/lan"
+        android:title="@string/lantitle">
+        <intent
+            android:targetClass="com.example.karanraj.speedtracker.LangActivity"
+            android:targetPackage="com.example.karanraj.speedtracker" />
+    </Preference>
+
+    <CheckBoxPreference
+        android:key="units"
+        android:title="@string/units"
+        android:summary="@string/unit"
+        android:defaultValue="true"/>
+
+    <Preference
+        android:key="secretmenu"
+        android:title="@string/secret"
+        android:textIsSelectable="true"
+        android:selectable="true"
+        android:summary="@string/thanks">
+        <intent
+            android:targetClass="com.example.karanraj.speedtracker.DeveloperPage"
+            android:targetPackage="com.example.karanraj.speedtracker" />
+    </Preference>
+</PreferenceScreen>
