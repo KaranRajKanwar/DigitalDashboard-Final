@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\c8486784f5510683cdf33767bb729cd5\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\4d6a477c011866eddf470abd005c2918\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\52f884eb3ef2defeabcd674e6a205313\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e5b429c146094a612134910688d169ec08deeefb">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSDKs\SDKs\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\dd3a0ef5f56c0541c4605426044e15cb\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\android-about-page-1.1.1.aar\677f756f8460c7703ed88bd4cb2acb97\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1d8a3cef611578892f5e00a85dc8520062fbe005">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\5fdda5ab29dc15849298a46ae1fdd3bb\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e1625e48a836779b5fa141d22e5d05563aaccc9a">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\d596715acf34865aef5f9a584479cb69\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5e58ff4810b12fa320241cb905d16202\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\bc558c15f098dcc54291b40cc47dae0c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\46fb01cf51cab4a3bab52c39bc09de2a\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-1.3.3.aar\90a44590e4ce31fa2443ad756ebbd8a8\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4234bd96344a30c7130d4bd89f3ab9116c30931b">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.2\3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf\gson-2.8.2.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\f296eb2136f774a02b8bfbd8a65ca6bb\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\556d1013aa31ed57afc46349b57e8673\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a37fc31c5ceeaa4532a37358add1b189d8db4af1">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\firebase-database-11.0.4.aar\09dc8862151dcc06885564c2a049eb28\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7c24e2e9773fb498e390ce973db382c3ddcf748e">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.0.4.aar\be1ae316d290070ad578f243d3231231\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1b12397bc9f342b29d9e9108978828f99a6da579">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\a66ead9e75fa80805ae66ea2f75dd405\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\931f3cc5948d84a34fefa3fa76765c12\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\f38ad854746f607f0fcb11084ff423af\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ca039695354f23e9a846bae95ba5ecca\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\5c83be6e2cf87ab4f2e7c340f1ccb591\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\81e9b71372f5699fa56082eb93db5da4\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\8c822c413bbdd70f0b82e73ef44f3be9\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\afa50de687a08edda84fc8c524ca97cf\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ed87ccdcb70c17d71ba4e6e4ac16afa62d3c49fb">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\darren\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\1ee0ed3a771a9c32f01f9827227de319\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="43e9789bd3240271265ab30ce1be9f224843f5a8">
+        <dex dex="C:\Users\darren\Documents\GitHub\UnitedEngineers\XMPlayer\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+
+</items>
