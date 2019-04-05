@@ -20,7 +20,6 @@
 
     <!--Signup Page-->
     <string name="fnamehint">First name</string>
-    <string name="lnamehint">Last name</string>
     <string name="emailhint">Email</string>
     <string name="passwordhint">Password</string>
     <string name="countryhint">Enter City, Province/State, Country</string>
@@ -33,6 +32,7 @@
     <string name="altitude">Altitude :</string>
     <string name="longitude">Longitude :</string>
     <string name="latitude">Latitude :</string>
+    <string name="SOT">Transportation Type:</string>
 
     <!--main_menu strings-->
     <string name="normal">Normal</string>
@@ -60,7 +60,7 @@
     <!--navigation strings-->
     <string name="tracking">Tracking</string>
     <string name="logs">Logs</string>
-    <string name="radio">AM/FM Radio</string>
+    <string name="radio">FM Radio</string>
     <string name="music">Music Library</string>
     <string name="aboutus">About Us</string>
     <string name="settings">Settings</string>
@@ -77,6 +77,11 @@
     <string name="mark">mark</string>
     <string name="units">Use imperial units?</string>
     <string name="kilometers">00km/h</string>
+    <string name="add_favr">Added to Favorites</string>
+    <string name="remove_favr">Removed from Favorites</string>
+    <string name="no_favorites_items">No Favorites</string>
+    <string name="no_favorites_msg">Long press on item to add to favorites</string>
+    <string name="favorites_remove_msg">Long press on item to remove from favorites</string>
 
     <!-- for the Log page -->
     <string name="Logs">Logs</string>
@@ -114,9 +119,26 @@
     <string name="name1" translatable="false">Karan Raj Kanwar</string>
     <string name="AboutUs">About Us </string>
     <string name="name2" translatable="false">Zhill Patel</string>
+    <string name="name3" translatable="false">Darren Prong</string>
     <string name="karanquote">"It's always fun to pick on the nerd.....Until he has your IP address."</string>
     <string name="zhillquote">But are you a different animal and the same beast?</string>
+    <string name="darrenquote" translatable="false">Don\'t give up the ship!</string>
     <string name="karanpara">"Karan Raj is a 3rd year Humber College student who enjoys app development, web design and databasing. His hobbies consist of playing competitive games, anything automotive based such as working on cars and drinking iced coffee's just to keep the blood pumping!"</string>
     <string name="zhillpara">Zhill Patel is a 3rd year Computer Engineering student at Humber College who is interesting in app design. He is a guy who enjoys and loves the game of basketball and is an avid Toronto sports fan.</string>
+    <string name="darrenpara" translatable="false">25 year old junior developer, home town of Milton, ON. A long history of athletics in both high school and at Sheridan College, as well, in my downtime, I love learning about history.I have big dreams of developing software in the areas of entertainment, PC gaming, small business projects, security, and journalism.Currently working on (besides this project obviously) creating small scale greeting/quoting websites for a couple of local business owners in my area. Looking forward to starting my career and meet new developers like myself!</string>
+    <string name="lnamehint">Last name</string>
 
+    <!-- for the Notification -->
+<string name="dismiss" translatable="false">DISMISS</string>
+
+    <!-- For the Spinner -->
+    <string-array name="spinneroptions">
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Car</item>
+        <item>Motorcycle</item>
+        <item>Scooter</item>
+        <item>Bicycle</item>
+        <item>Other</item>
+    </string-array>
 </resources>

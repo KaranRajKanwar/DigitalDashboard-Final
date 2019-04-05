@@ -12,6 +12,7 @@ import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -20,6 +21,8 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.w3c.dom.Text;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,7 +30,7 @@ public class MusicActivity extends Activity implements SeekBar.OnSeekBarChangeLi
     private static final int MY_PERMISSIONS_REQUEST_READ_EXTERNAL_STORAGE = 1;
     private List<Song> songs = new ArrayList<>();
     RecyclerView songRecyclerView;
-    TextView songCurrentPosition, songTotalDuration;
+    TextView songCurrentPosition, songTotalDuration,song;
     SeekBar songProgress;
     ImageButton btnPlay, btnNext, btnPrevious;
     MediaPlayer mMediaPlayer = null;
@@ -46,16 +49,26 @@ public class MusicActivity extends Activity implements SeekBar.OnSeekBarChangeLi
         btnPlay=(ImageButton)findViewById(R.id.btnPlay);
         btnNext=(ImageButton)findViewById(R.id.btnNext);
         btnPrevious=(ImageButton)findViewById(R.id.btnPrevious);
+        song = (TextView) findViewById(R.id.songTitle);
 
 
         songProgress.setOnSeekBarChangeListener(this);
 
         songRecyclerView=(RecyclerView) findViewById(R.id.songRecyclerView);
         songRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        songRecyclerView.addItemDecoration(new DividerItemDecoration(songRecyclerView.getContext(), DividerItemDecoration.VERTICAL));
+        songRecyclerView.setHasFixedSize(true);
 
         loadSongs();
 
+        songRecyclerView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MusicActivity.this,"Song", Toast.LENGTH_LONG).show();
+            }
+        });
 
+        //TODO Plays first song in list
         btnPlay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -64,6 +77,7 @@ public class MusicActivity extends Activity implements SeekBar.OnSeekBarChangeLi
             }
         });
 
+        //TODO goes to next song
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -82,6 +96,7 @@ public class MusicActivity extends Activity implements SeekBar.OnSeekBarChangeLi
             }
         });
 
+        //TODO Goes to previous song
         btnPrevious.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -110,19 +125,16 @@ public class MusicActivity extends Activity implements SeekBar.OnSeekBarChangeLi
         songAdapter.notifyDataSetChanged();
     }
 
+    //TODO Grabs all songs from mobiles device
     private void loadSongs() {
 
         if (ContextCompat.checkSelfPermission(this,
                 Manifest.permission.READ_EXTERNAL_STORAGE)
                 != PackageManager.PERMISSION_GRANTED) {
 
-
-
             ActivityCompat.requestPermissions(this,
                     new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},
                     MY_PERMISSIONS_REQUEST_READ_EXTERNAL_STORAGE);
-
-
         } else
         {
             fetchAllSongs();
@@ -170,6 +182,7 @@ public class MusicActivity extends Activity implements SeekBar.OnSeekBarChangeLi
         return song;
     }
 
+    //TODO Get permission to view all MP3 files on Mobile Phone
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
                                            @NonNull int[] grantResults) {
@@ -276,6 +289,7 @@ public class MusicActivity extends Activity implements SeekBar.OnSeekBarChangeLi
         return finalString;
     }
 
+    //TODO allows you to seek forward or backwards on the seekbar
     @Override
     public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
         if(b) {
@@ -283,6 +297,7 @@ public class MusicActivity extends Activity implements SeekBar.OnSeekBarChangeLi
         }
     }
 
+    //TODO gets time for song duration in 00:00:00
     private int getTimeFromProgress(int progress, int duration) {
         int songDuration=(int)((duration*progress)/100);
         return songDuration;
@@ -297,7 +312,6 @@ public class MusicActivity extends Activity implements SeekBar.OnSeekBarChangeLi
     public void onStopTrackingTouch(SeekBar seekBar) {
 
     }
-
 
     @Override
     public void onBackPressed()

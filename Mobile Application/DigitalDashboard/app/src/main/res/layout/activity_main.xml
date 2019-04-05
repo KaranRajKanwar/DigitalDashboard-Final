@@ -8,19 +8,27 @@
     android:fitsSystemWindows="true"
     tools:layout_editor_absoluteY="81sp">
 
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="420sp"
+        android:src="@drawable/ic_login2"/>
     <EditText
         android:id="@+id/email"
-        android:layout_width="match_parent"
+        android:layout_width="320sp"
         android:layout_height="wrap_content"
         android:layout_marginTop="230sp"
+        android:layout_marginLeft="20sp"
         android:hint="@string/email"
         android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/password"
-        android:layout_width="match_parent"
+        android:layout_width="320sp"
         android:layout_height="wrap_content"
         android:layout_marginTop="280sp"
+        android:layout_marginLeft="20sp"
         android:layout_marginBottom="32sp"
         android:hint="@string/password"
         android:inputType="textPassword" />
@@ -33,22 +41,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="340sp"
+            android:layout_marginLeft="20sp"
             android:gravity="left"
             android:text="@string/show_password" />
     </RelativeLayout>
 
     <Button
         android:id="@+id/loginbutton"
-        android:layout_width="fill_parent"
+        android:layout_width="320sp"
         android:layout_height="wrap_content"
         android:padding="12sp"
         android:layout_marginTop="380sp"
+        android:layout_marginLeft="20sp"
         android:text="@string/loginbtn" />
     <Button
         android:id="@+id/anonloginbutton"
-        android:layout_width="fill_parent"
+        android:layout_width="320sp"
         android:layout_height="wrap_content"
         android:padding="12sp"
+        android:layout_marginLeft="20sp"
         android:layout_marginTop="440sp"
         android:text="@string/anonloginbtn" />
 
@@ -67,7 +78,7 @@
         android:id="@+id/forgotpassword"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="530sp"
+        android:layout_marginTop="560sp"
         android:background="@null"
         android:onClick="onClick"
         android:layout_marginLeft="120sp"
@@ -78,9 +89,10 @@
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/googleBtn"
-        android:layout_marginTop="590sp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"></com.google.android.gms.common.SignInButton>
+        android:layout_marginTop="610sp"
+        android:layout_marginLeft="20sp"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"/>
 
     <ProgressBar
         android:id="@+id/progressBar"

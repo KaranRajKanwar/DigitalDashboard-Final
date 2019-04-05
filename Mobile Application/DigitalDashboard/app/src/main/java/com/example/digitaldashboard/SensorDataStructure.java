@@ -6,16 +6,19 @@ public class SensorDataStructure {
     private String latitude;
     private String longitude;
     private String speed;
+    private String Spinner;
 
     public SensorDataStructure(){
 
     }
-    public SensorDataStructure(String address, String altitude, String latitude, String longitude, String speed){
+
+    public SensorDataStructure(String address, String altitude, String latitude, String longitude, String speed,String Spinner){
         this.address = address;
         this.altitude = altitude;
         this.latitude = latitude;
         this.longitude = longitude;
         this.speed = speed;
+        this.Spinner = Spinner;
     }
 
     public String getAddress() {
@@ -56,6 +59,14 @@ public class SensorDataStructure {
 
     public void setSpeed(String speed){
         this.speed = speed;
+    }
+
+    public String getSpinner(){
+        return Spinner;
+    }
+
+    public void setSpinner(String Spinner){
+        this.Spinner = Spinner;
     }
 
 }

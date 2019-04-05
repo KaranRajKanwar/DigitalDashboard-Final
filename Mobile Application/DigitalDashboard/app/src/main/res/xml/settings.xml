@@ -7,8 +7,8 @@
         android:summary="@string/lan"
         android:title="@string/lantitle">
         <intent
-            android:targetClass="com.example.karanraj.speedtracker.LangActivity"
-            android:targetPackage="com.example.karanraj.speedtracker" />
+            android:targetClass="com.example.digitaldashboard.LangActivity"
+            android:targetPackage="com.example.digitaldashboard" />
     </Preference>
 
     <CheckBoxPreference
@@ -24,7 +24,7 @@
         android:selectable="true"
         android:summary="@string/thanks">
         <intent
-            android:targetClass="com.example.karanraj.speedtracker.DeveloperPage"
-            android:targetPackage="com.example.karanraj.speedtracker" />
+            android:targetClass="com.example.digitaldashboard.DeveloperPage"
+            android:targetPackage="com.example.digitaldashboard" />
     </Preference>
 </PreferenceScreen>

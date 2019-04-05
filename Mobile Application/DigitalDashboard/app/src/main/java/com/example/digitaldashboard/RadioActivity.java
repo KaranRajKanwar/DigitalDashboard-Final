@@ -46,9 +46,9 @@ public class RadioActivity extends Activity {
 
         //Passing string values from onItemClick() in StationListFragment
         Bundle bundle = getIntent().getExtras();
-        streamLink = bundle.getString(getString(R.string.link));
-        imageURL = bundle.getString(getString(R.string.imageurl));
-        description = bundle.getString(getString(R.string.description));
+        //streamLink = bundle.getString(getString(R.string.link));
+        //imageURL = bundle.getString(getString(R.string.imageurl));
+        //description = bundle.getString(getString(R.string.description));
 
         TextView descripView = (TextView) findViewById(R.id.descripView);
         descripView.setText(description);
@@ -61,7 +61,7 @@ public class RadioActivity extends Activity {
         mediaPlayer = new MediaPlayer();
         mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
 
-        new PlayerTask().execute(streamLink);
+      //  new PlayerTask().execute(streamLink);
 
         //checking for a real URL that gets passed in from bundle
         try {
@@ -70,7 +70,7 @@ public class RadioActivity extends Activity {
 
             e.printStackTrace();
         }
-        new DownloadFilesTask().execute(url1);
+       // new DownloadFilesTask().execute(url1);
 
         //Setting pause/play button, after the loading is complete
         b_play.setOnClickListener(new View.OnClickListener() {
@@ -89,13 +89,13 @@ public class RadioActivity extends Activity {
         });
     }
 
-    //This task is for setting our radio stream with the first string passed in doInBackground
+/*    //This task is for setting our radio stream with the first string passed in doInBackground
     class PlayerTask extends AsyncTask<String, Void, Boolean> {
         @Override
         protected Boolean doInBackground(String...strings){
 
             try {
-                mediaPlayer.setDataSource(strings[0]);
+               mediaPlayer.setDataSource(strings[0]);
                 mediaPlayer.prepare();
                 prepared = true;
             } catch (IOException e) {
@@ -112,8 +112,8 @@ public class RadioActivity extends Activity {
 
         }
     }
-
-    //This one handles download the image files ASync with the URL passed in with bundle
+*/
+ /*   //This one handles download the image files ASync with the URL passed in with bundle
     private class DownloadFilesTask extends AsyncTask<URL, Integer, Long> {
 
         @Override
@@ -187,7 +187,7 @@ public class RadioActivity extends Activity {
             mImageView.setImageBitmap(myBitmap);
         }
     }
-
+*/
     @Override
     protected void onPause() {
         super.onPause();

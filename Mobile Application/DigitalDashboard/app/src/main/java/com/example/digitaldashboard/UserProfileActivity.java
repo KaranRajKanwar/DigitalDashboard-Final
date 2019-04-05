@@ -4,7 +4,6 @@ package com.example.digitaldashboard;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
@@ -12,10 +11,10 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.design.widget.NavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Base64;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -37,13 +36,9 @@ import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
-import java.io.ByteArrayOutputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 import java.util.UUID;
 
 public class UserProfileActivity extends AppCompatActivity {
@@ -95,6 +90,8 @@ public class UserProfileActivity extends AppCompatActivity {
         provider.setText(user.getProviderId());
         sp = getSharedPreferences("profilePicture", MODE_PRIVATE);
 
+
+
         reterieveData();
         if (!sp.getString("sp", "").equals("")) {
             byte[] decodedString = Base64.decode(sp.getString("sp", ""), Base64.DEFAULT);
@@ -117,6 +114,7 @@ public class UserProfileActivity extends AppCompatActivity {
         });
     }
 
+    //TODO image result sent ot database
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -132,6 +130,7 @@ public class UserProfileActivity extends AppCompatActivity {
         }
     }
 
+    //TODO used for pulling the uid and email and name from the database
     private void reterieveData() {
         // TODO: Get the data on a single node.
         myRef.addChildEventListener(new ChildEventListener() {
@@ -194,6 +193,7 @@ public class UserProfileActivity extends AppCompatActivity {
         });
     }
 
+    //TODO Allows the phone to get permission to pull photos from the phones storage
     private void chooseImage() {
         Intent intent = new Intent();
         intent.setType("image/*");
@@ -201,6 +201,7 @@ public class UserProfileActivity extends AppCompatActivity {
         startActivityForResult(Intent.createChooser(intent, "Select Picture"), PICK_IMAGE_REQUEST);
     }
 
+    //TODO Allows for the upload to occur to the storage
     private void uploadImage() {
 
         if (filePath != null) {
@@ -230,5 +231,12 @@ public class UserProfileActivity extends AppCompatActivity {
             });
         }
 
+    }
+
+    //TODO Gives the Back button Logic
+    public boolean onOptionsItemSelected(MenuItem item){
+        Intent myIntent = new Intent(getApplicationContext(), TrackingActivity.class);
+        startActivityForResult(myIntent, 0);
+        return true;
     }
 }

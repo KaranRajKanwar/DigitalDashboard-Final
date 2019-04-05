@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Login Page-->
+    <string name="email">Email</string>
+    <string name="password">Passwort</string>
+    <string name="show_password">Passwort anzeigen</string>
+    <string name="loginbtn">Anmeldung</string>
+    <string name="anonloginbtn">Anonymer Login</string>
+    <string name="createacct">Noch keinen Account? Erstelle einen!</string>
+    <string name="forgotpasswordlink">Passwort vergessen?</string>
+    <string name="minpass">Min. Zeichen für das Passwort sind 6</string>
+    <string name="auth_failed">Authentifizierung fehlgeschlagen!</string>
+
+    <!--ForgotPassword Page-->
+    <string name="Email">Email :</string>
+    <string name="forgotpassword">Passwort vergessen?</string>
+    <string name="verified_email" translatable="false"></string>
+    <string name="disclaimer">Wenn Sie Ihr Passwort vergessen haben, geben Sie Ihre E-Mail-Adresse ein, da wir ein temporäres Passwort an Ihre E-Mail senden. Sobald Sie Zugriff auf Ihr Konto haben, können Sie ein neues Passwort anfordern.</string>
+    <string name="Send_link">Link senden</string>
+    <string name="back"><![CDATA[<< Back]]></string>
+
+    <!--Signup Page-->
+    <string name="fnamehint">Vorname</string>
+    <string name="emailhint">Email</string>
+    <string name="passwordhint">Passwort</string>
+    <string name="countryhint">Geben Sie Stadt, Provinz / Bundesland, Land ein</string>
+    <string name="createaccount">Benutzerkonto anlegen</string>
+
+    <!--Tracking Page-->
+    <string name="app_name">DigitalDashboard</string>
+    <string name="speed">Geschwindigkeit :</string>
+    <string name="address">Adresse :</string>
+    <string name="altitude">Höhe:</string>
+    <string name="longitude">Längengrad :</string>
+    <string name="latitude">Breite :</string>
+
+    <!--main_menu strings-->
+    <string name="normal">Normal</string>
+    <string name="satellite">Satellit</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="terrain">Terrain</string>
+
+    <!--Music and radio strings-->
+    <string name="start_duration">00:00:00</string>
+    <string name="no_permission">Bitte erlauben Sie die Erlaubnis, auf MP3 zuzugreifen</string>
+    <string name="radioToast">Bitte warten Sie bis zu 30 Sekunden, bis der Radio Stream geladen ist</string>
+    <string name="imageurl">imageURL</string>
+    <string name="link">streamLink</string>
+    <string name="description">description</string>
+    <string name="LOADING">LOADING</string>
+    <string name="PLAY">PLAY</string>
+    <string name="PAUSE">PAUSE</string>
+    <string name="grey">grey</string>
+    <string name="red">red</string>
+    <string name="stations">Stationen</string>
+    <string name="ok">OK</string>
+    <string name="Favorites">Favoriten</string>
+    <string name="favorites">Favoriten</string>
+
+    <!--navigation strings-->
+    <string name="tracking">Verfolgung</string>
+    <string name="logs">Protokolle</string>
+    <string name="radio">FM-Radio</string>
+    <string name="music">Musiksammlung</string>
+    <string name="aboutus">Über uns</string>
+    <string name="settings">die Einstellungen</string>
+    <string name="signout">Ausloggen</string>
+    <string name="quit">Verlassen</string>
+    <string name="title_activity_settings">die Einstellungen</string>
+    <string name="Open">Öffnen</string>
+    <string name="Close">Schließen</string>
+    <string name="welcomeback">Willkommen zurück</string>
+    <string name="google_maps">Mit der Kraft von Google Maps</string>
+    <string name="Current_Speed">Momentane Geschwindigkeit :</string>
+    <string name="Current_Distance_Travelled">Aktuelle zurückgelegte Strecke:</string>
+    <string name="start_tracking">Beginnen Sie mit dem Tracking</string>
+    <string name="mark">Kennzeichen</string>
+    <string name="units">Imperiale Einheiten verwenden?</string>
+    <string name="kilometers">00km/h</string>
+    <string name="add_favr">Zu Favoriten hinzugefügt</string>
+    <string name="remove_favr">Aus Favoriten entfernt</string>
+    <string name="no_favorites_items">Keine Favoriten</string>
+    <string name="no_favorites_msg">Drücken Sie lange auf den Eintrag, um ihn zu den Favoriten hinzuzufügen</string>
+    <string name="favorites_remove_msg">Drücken Sie lange auf den Eintrag, um ihn aus den Favoriten zu entfernen</string>
+
+    <!-- for the Log page -->
+    <string name="Logs">Protokolle</string>
+    <string name="Select_all_logs">Wählen Sie alle Protokolle aus</string>
+    <string name="Filter_By">Filtern nach :</string>
+    <string name="Delete_all_selected">Löschen</string>
+    <string name="Share_selected">Aktie</string>
+
+    <!-- for the Settings page -->
+    <string name="lan">Bitte wählen Sie eine Sprache für die Bewerbung</string>
+    <string name="lantitle">Sprache ändern</string>
+    <string name="unit">Konvertieren Sie in imperiale Einheiten</string>
+    <string name="secret">App Beta Ver 1.0</string>
+    <string name="thanks">Vielen Dank, dass Sie unsere App getestet haben!</string>
+    <string name="Settings">die Einstellungen</string>
+
+    <!-- for User profile-->
+    <string name="choosepicture">Wählen Sie ein Profilbild</string>
+    <string name="accounttype">Konto Typ</string>
+    <string name="assigneduid">Zugewiesene UID</string>
+    <string name="useremail">Email</string>
+    <string name="location">Toronto, Ontario</string>
+    <string name="savepicture">Bild speichern</string>
+    <string name="userprofile">Benutzerprofil</string>
+
+    <!--Dev page-->
+    <string name="dev">Entwicklermodus</string>
+    <string name="lang">Sprache auswählen</string>
+    <string name="english">Englisch</string>
+    <string name="french">Französisch</string>
+    <string name="german">Deutsche</string>
+    <string name="langchange">Die Sprache wurde zu mögen geändert</string>
+
+    <!-- for the aboutus page -->
+    <string name="name1" translatable="false">Karan Raj Kanwar</string>
+    <string name="AboutUs">Über uns</string>
+    <string name="name2" translatable="false">Zhill Patel</string>
+    <string name="karanquote">Es macht immer Spaß, auf dem Nerd zu suchen.</string>
+    <string name="zhillquote">Aber bist du ein anderes Tier und dasselbe Tier?</string>
+    <string name="karanpara">Karan Raj ist ein Student des Humber College im dritten Jahr, der sich mit App-Entwicklung, Webdesign und Databasing auskennt. Seine Hobbys sind das Spielen von Wettbewerben, alles was mit Autos zu tun hat, wie Arbeiten an Autos und Eiskaffee trinken, nur um das Blut in Schwung zu halten.</string>
+    <string name="zhillpara">Zhill Patel ist ein Student der Computeringenieurwissenschaften im dritten Jahr am Humber College, der sich für das App-Design interessiert. Er ist ein Mann, der das Basketballspiel liebt und liebt und ein begeisterter Sportfan in Toronto ist.</string>
+    <string name="lnamehint">Nachname</string>
+    <string name="SOT">Transportart:</string>
+</resources>
